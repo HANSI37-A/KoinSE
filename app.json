@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Koin",
+    "slug": "koin-expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F4F1EA",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.koin.expensetracker",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Koin needs access to your camera to capture and scan receipts.",
+        "NSPhotoLibraryUsageDescription": "Koin needs access to your photos to upload and extract receipt items."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F1EA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.koin.expensetracker",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you upload receipts for automatic scanning.",
+          "cameraPermission": "The app accesses your camera to let you snap receipt photos."
+        }
+      ]
+    ]
+  }
+}
