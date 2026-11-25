@@ -12,9 +12,9 @@
 <!-- Replace the link below with your Loom or uploaded video   -->
 <!-- ======================================================== -->
 
-[![Watch Demo Video](https://img.shields.io/badge/Demo%20Video-Watch%20on%20Loom%20%2F%20MP4-10B981?style=for-the-badge&logo=loom&logoColor=white)](YOUR_LOOM_OR_VIDEO_URL_HERE)
+[![Watch Demo Video](https://img.shields.io/badge/Demo%20Video-Watch%20on%20Loom%20%2F%20MP4-10B981?style=for-the-badge&logo=loom&logoColor=white)]([YOUR_LOOM_OR_VIDEO_URL_HER](https://drive.google.com/file/d/1LlCXcbZXykHh1yuN_b7EwNy8IQmi0DNi/view?usp=sharing)E)
 
-> **Direct Video Link:** [Click here to view the 45–60s Demo Video](YOUR_LOOM_OR_VIDEO_URL_HERE)  
+> **Direct Video Link:** [Click here to view the 45–60s Demo Video](https://drive.google.com/file/d/1LlCXcbZXykHh1yuN_b7EwNy8IQmi0DNi/view?usp=sharing)  
 > *(Or view `./demo.mp4` included in this repository)*
 
 ### What the Demo Video Covers:
